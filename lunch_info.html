@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- githubで公開するとき<br> -->
+<!-- <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"> -->
+	<meta content="text/html; charset=Shift_JIS" http-equiv="Content-Type">
+    <title>昼食情報</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .restaurant {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .restaurant h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #555;
+        }
+        .info {
+            margin: 10px 0;
+            font-size: 1em;
+        }
+        .menu {
+            font-weight: bold;
+        }
+        .closed {
+	        color: red;
+	        font-weight: bold;
+	        font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>昼食情報</h1>
+
+        <!-- レストラン情報 -->
+        <div class="restaurant">
+            <h2>名古屋大学生協</h2>
+            <p class="closed">土曜日は営業していません！！</p>
+        </div>
+
+        <div class="restaurant">
+            <h2>ファミリーマート</h2>
+            <p class="info">営業時間: 7時00分～23時00分</p>
+             <p class="info"><a href="https://www.nagoya-u.ac.jp/extra/map/index.html">地図</a>: C3①，B4②</p>
+            <p class="info">備考: C3①は階段を降りたところにあります</p>
+        </div>
+        
+        <div class="restaurant">
+            <h2>スターバックスコーヒー</h2>
+            <p class="info">営業時間: 9時00分～18時00分</p>
+            <p class="info"><a href="https://www.nagoya-u.ac.jp/extra/map/index.html">地図</a>: B3②</p>
+        </div>
+        
+        <div class="restaurant">
+            <h2>その他近隣の飲食店</h2>
+            <p class="info">中華，ハンバーグ，ケバブなどがあります．ご不明な点などございましたら名古屋大学の学生にお声がけください</p>
+        </div>
+
+        <!-- 新しいレストラン情報をここに追加できます -->
+
+    </div>
+</body>
+</html>
